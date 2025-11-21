@@ -24,7 +24,7 @@ export const projects = [
       'An expense tracker website, and AI-assisted summaries.',
     stack: ['Javascript', 'React','Tailwind'],
     link: 'https://rewardsumm.vercel.app/',
-    image: '/public/balancee.png',
+    image: '/src/assets/balancee.png',
   },
    {
     title: 'YouWatch',
@@ -32,7 +32,7 @@ export const projects = [
       'A movie application',
     stack: ['TypeScript', 'NextJS', 'Tailwind'],
     link: 'https://mayana-movie-app.vercel.app/',
-    image: '/public/netflix clone.png',
+    image: '/src/assets/netflix clone.png',
   },
    {
     title: 'Shoply',
@@ -40,7 +40,7 @@ export const projects = [
       'E-commerce website with modern design and seamless UX.',
     stack: ['Javascript', 'CSS', 'HTML'],
     link: 'https://shoply-vlm8.vercel.app/',
-    image: '/public/shoply.png',
+    image: '/src/assets/shoply.png',
   },
    {
     title: 'TrustFX',
@@ -48,7 +48,7 @@ export const projects = [
       'A financial services platform',
     stack: ['Typescript', 'Tailwind', 'NextJS'],
     link: 'https://trustfx.vercel.app',
-    image: '/public/trustfx.png',
+    image: '/src/assets/trustfx.png',
   },
   {
     title: 'Personal Portfolio',
@@ -56,7 +56,7 @@ export const projects = [
       'A sleek, responsive portfolio website to showcase my projects and skills.',
     stack: ['React', 'Javascript', 'Tailwind CSS'],
     link: 'https://egbeyemi-portfolio.vercel.app/',
-    image: '/public/myportfolio.png',
+    image: '/src/assets/myportfolio.png',
   },
   {
     title: 'BlackJack Game',
@@ -64,7 +64,7 @@ export const projects = [
       'An interactive Blackjack game built with Javascript.',
     stack: ['JavaScript', 'CSS'],
     link: 'https://ablackjack.vercel.app/',
-    image: '/public/blackjack.png',
+    image: '/src/assets/blackjack.png',
   },
 ]
 
@@ -128,7 +128,7 @@ export const skills = {
 }
 
 export const contactContent = {
-  email: 'Email me',
+  email: 'egbeyemi_olamilekan@yahoo.com',
   message:
     'I am always open to discussing new projects, creative ideas, or opportunities to be part of your vision.',
   socialLinks: [
