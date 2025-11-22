@@ -1,12 +1,12 @@
 function ProjectCard({ title, description, stack, link, image }) {
   return (
     <article className="group overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition hover:border-brand-primary/50 hover:bg-white/[0.04] hover:shadow-glow">
-      <div className="relative aspect-video overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900">
+      <div className=" rounded sm:rounded shadow-lg overflow-hidden hover:shadow-2xl transition-transform transform hover:-translate-y-1 sm:hover:-translate-y-2 duration-300">
         {image ? (
           <img
             src={image}
             alt={title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-50 sm:h-48 object-contain"
             loading="lazy"
           />
         ) : (
